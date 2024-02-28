@@ -1,0 +1,74 @@
+.error-text{
+    color: red;
+    font-size: 15px;
+}
+
+.dropdown-menu {
+    padding: 0;
+    border-top-width: 0;
+    width: 280px;
+}
+
+.user-footer {
+    background-color: #f9f9f9;
+    padding: 10px; 
+  }
+
+  .preloader{display: none;}
+
+  .loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  
+  .loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+  
+  .content {
+    /* Add styles for your page content */
+    padding: 20px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .login-page, .register-page {
+    background-color: #c7e7c6;
+   
+}
+
+/* CSS - You can include this in your stylesheets */
+.medical-history-entry {
+  position: relative;
+}
+
+.mh-delete-button {
+  position: absolute;
+  top: 5px; /* Adjust top position as needed */
+  right: 5px; /* Adjust right position as needed */
+  background-color: #ff5252; /* Red background color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.mh-delete-button:hover {
+  background-color: #ff0000; /* Darker red on hover */
+}
