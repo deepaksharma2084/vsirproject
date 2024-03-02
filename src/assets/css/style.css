@@ -72,3 +72,17 @@
 .mh-delete-button:hover {
   background-color: #ff0000; /* Darker red on hover */
 }
+
+.dashboard-text{
+  font-size: 15px;
+}
+
+nav.main-header.navbar.navbar-expand.navbar-white.navbar-light {
+  background-color: #008080;
+}
+.nav-link p {
+  font-size: 21px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+}

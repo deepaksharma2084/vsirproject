@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
+import "../assets/css/style.css";
 const Header = () => {
   const navigate = useNavigate();
 
@@ -21,7 +22,7 @@ const Header = () => {
       </div>
       <nav className="main-header navbar navbar-expand navbar-white navbar-light">
         <ul className="navbar-nav">
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a
               className="nav-link"
               data-widget="pushmenu"
@@ -30,8 +31,8 @@ const Header = () => {
             >
               <i className="fas fa-bars" />
             </a>
-          </li>
-          <li className="nav-item d-none d-sm-inline-block">
+          </li> */}
+          {/* <li className="nav-item d-none d-sm-inline-block">
             <Link to="/" className="nav-link">
               Home
             </Link>
@@ -45,6 +46,15 @@ const Header = () => {
             <Link to="/contact" className="nav-link">
               Contact Us
             </Link>
+          </li> */}
+
+          <li className="nav-item d-none d-sm-inline-block">
+            <input
+              type="text"
+              name="search"
+              className=""
+              placeholder="Search"
+            />
           </li>
         </ul>
         <ul className="navbar-nav ml-auto">
