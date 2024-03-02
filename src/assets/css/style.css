@@ -83,6 +83,32 @@ nav.main-header.navbar.navbar-expand.navbar-white.navbar-light {
 .nav-link p {
   font-size: 21px;
 }
+
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: #fff;
 }
+.nav-link_.navlink p {
+  font-size: 25px;
+}
+.top-search-box {
+  margin-left: 316px;
+}
+.top-search-box input[type="text"] {
+  width: 300px; /* Set the desired width */
+  border-radius: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.top-search-box input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.ctitle {
+	margin-left: 512px;
+}
+.qtitle {
+	padding-left: 95px;
+}
+

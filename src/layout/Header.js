@@ -1,12 +1,12 @@
-import React from "react";
-import { Link, useNavigate } from "react-router-dom";
-import "../assets/css/style.css";
+import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import '../assets/css/style.css';
 const Header = () => {
   const navigate = useNavigate();
 
   const handelLogout = () => {
     localStorage.clear();
-    navigate("/login");
+    navigate('/login');
   };
 
   return (
@@ -21,6 +21,10 @@ const Header = () => {
         />
       </div>
       <nav className="main-header navbar navbar-expand navbar-white navbar-light">
+        <div className="top-search-box">
+          <input type="text" name="search" className="" placeholder="Search" />
+        </div>
+
         <ul className="navbar-nav">
           {/* <li className="nav-item">
             <a
@@ -48,14 +52,14 @@ const Header = () => {
             </Link>
           </li> */}
 
-          <li className="nav-item d-none d-sm-inline-block">
+          {/* <li className="nav-item d-none d-sm-inline-block">
             <input
               type="text"
               name="search"
               className=""
               placeholder="Search"
             />
-          </li>
+          </li> */}
         </ul>
         <ul className="navbar-nav ml-auto">
           <li className="nav-item dropdown user user-menu">

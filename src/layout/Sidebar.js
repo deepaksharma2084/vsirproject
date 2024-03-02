@@ -1,19 +1,19 @@
-import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
 const Sidebar = () => {
   return (
     <div>
       <aside className="main-sidebar sidebar-dark-primary elevation-4">
         <Link to="/" className="brand-link">
           <img
-            src={process.env.PUBLIC_URL + "/asserts/images/homeicon.png"}
+            src={process.env.PUBLIC_URL + '/asserts/images/homeicon.png'}
             alt="AdminLTE Logo"
             className="brand-image  elevation-3"
-            style={{ opacity: ".8" }}
+            style={{ opacity: '.8' }}
           />
           <span
             className="brand-text dashboard-text "
-            style={{ fontSize: "20px" }}
+            style={{ fontSize: '20px' }}
           >
             Dashboard
           </span>
@@ -33,11 +33,11 @@ const Sidebar = () => {
                 </NavLink>
               </li> */}
               <>
-                <NavLink to="#" className="nav-link">
+                <NavLink to="#" className="nav-link_ navlink">
                   <p>Booking</p>
                 </NavLink>
 
-                <NavLink to="#" className="nav-link">
+                <NavLink to="#" className="nav-link_ navlink">
                   <p>Invoice</p>
                 </NavLink>
               </>
